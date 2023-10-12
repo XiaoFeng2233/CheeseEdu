@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.XiaoFeng2233.CheeseEdu.dao.QuestionMapper">
+    <select id="getQuestionByCondition" resultType="com.github.XiaoFeng2233.CheeseEdu.entity.Question">
+        select *,(select nickname from users where id = user_id) as user_nick_name,(select avatar from users where id = user_id) as user_avatar,(select count(*) from question_reply where question_id = question.id) as answer_count
+        from question where status = 1
+        <if test="sort == 1">
+            order by created_time,view_count desc ,is_solved asc
+        </if>
+        <if test="sort == 2">
+            order by created_time desc
+        </if>
+        <if test="sort == 3">
+            and is_solved = 0 order by is_solved asc
+        </if>
+        <if test="sort == 4">
+            and is_solved = 1 order by is_solved desc
+        </if>
+    </select>
+</mapper>

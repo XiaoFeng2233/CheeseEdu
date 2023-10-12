@@ -1,0 +1,84 @@
+server:
+  port: 9988
+spring:
+  cache:
+    type: redis
+  mvc:
+    async:
+      request-timeout: 3000
+    view:
+      prefix: /
+      suffix: .html
+  output:
+    ansi:
+      enabled: detect
+  datasource:
+    hikari:
+      minimum-idle: 10
+      connection-test-query: SELECT 1
+      max-lifetime: 30000
+      maximum-pool-size: 30
+      auto-commit: true
+      idle-timeout: 30000
+      connection-timeout: 30000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    MYSQL用户名
+    username: root
+    #    MYSQL密码
+    password: 8899174Qq
+    #    MYSQL链接URL
+    url: jdbc:mysql://localhost:3366/cheese?useUnicode=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&characterEncoding=UTF-8
+    type: com.zaxxer.hikari.HikariDataSource
+
+#Redis配置
+  redis:
+    # redis服务器IP
+    host: 127.0.0.1
+    # redis服务器端口
+    port: 6379
+    # redis服务器密码
+    password: rootroot
+    # redis 数据默认超时时间
+    cacheTtl: 600s
+    lettuce:
+      pool:
+        max-active: 50
+        min-idle: 0
+        max-idle: 10
+        max-wait: -1ms
+    timeout: 1500ms
+    connect-timeout: 1500ms
+    client-type: lettuce
+  application:
+    name: CheeseEdu
+
+
+#rabbitmq配置
+  rabbitmq:
+    # rabbitmq虚拟主机
+    virtual-host: /
+    # rabbitmq服务器IP
+    host: 127.0.0.1
+    # rabbitmq服务器用户名
+    username: guest
+    # rabbitmq服务器密码
+    password: guest
+    # rabbitmq服务器端口
+    port: 5672
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+  web:
+    resources:
+      static-locations: classpath:/static/
+
+
+mybatis-plus:
+  global-config:
+    banner: false
+  mapper-locations: classpath:/mapper/**.xml
+#设置订单过期时间 单位毫秒
+order:
+  expire: 600000

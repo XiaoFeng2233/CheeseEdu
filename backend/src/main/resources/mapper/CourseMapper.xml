@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.XiaoFeng2233.CheeseEdu.dao.CourseMapper">
+    <select id="getCourseByCondition" resultType="com.github.XiaoFeng2233.CheeseEdu.entity.Course">
+        select *
+        from course where status = 1
+<if test="categoryId != 0">
+    and category_id = #{categoryId}
+</if>
+<if test="sort == 4">
+    and type = 0
+</if>
+<if test="sort == 3">
+    order by student_number desc
+</if>
+<if test="sort == 2">
+    order by created_time desc
+</if>
+<if test="sort == 1">
+    order by created_time desc , student_number desc
+</if>
+    </select>
+</mapper>

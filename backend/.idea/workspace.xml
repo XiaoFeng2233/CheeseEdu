@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7aff1e98-d9bd-4ef6-b03d-519d235eb289" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../前端源码/cheeseedu/src/components/Question/QuestionReply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端源码/cheeseedu/src/components/Question/QuestionReply.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端源码/cheeseedu/src/views/Default/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端源码/cheeseedu/src/views/Default/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端源码/cheeseedu/src/views/Default/Order/OrderCheckOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端源码/cheeseedu/src/views/Default/Order/OrderCheckOut.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/XiaoFeng2233/CheeseEdu/controller/common/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/XiaoFeng2233/CheeseEdu/controller/common/ResourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/index.bfb437b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/index.c1d071c8.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="J:/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="J:\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24qHKnATeW2OohZ7eWtrv8FQwNp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aff1e98-d9bd-4ef6-b03d-519d235eb289" name="Changes" comment="" />
+      <created>1644351138916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644351138916</updated>
+      <workItem from="1644351139942" duration="19000" />
+    </task>
+    <servers />
+  </component>
+</project>

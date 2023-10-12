@@ -1,0 +1,29 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  min-width: 1300px;
+}
+
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+  background: #252631;
+}
+
+.app-container{
+  padding: 20px;
+}
+
+.w-e-menu {
+  z-index: 2 !important;
+}
+.w-e-text-container {
+  z-index: 1 !important;
+}
+
+.w-e-toolbar{
+  z-index: 2 !important;
+}
